@@ -54,7 +54,8 @@ so failure to find out what additional data to put in & lack of knowledge about 
 ```
 1st Limitations: This competition had to use a "Knowledge Distillation" technique
 
-2nd Limitations : The number of features in the training data is 54, and the number of features in the data to be predicted is 19, which is a difference of about 3 times.
+2nd Limitations : The number of features in the training data is 54, and the number of 
+                  features in the data to be predicted is 19, which is a difference of about 3 times.
 ```
 
 
@@ -63,9 +64,11 @@ so failure to find out what additional data to put in & lack of knowledge about 
 <br>
 
 ```
-1. The number of training data is 14,095, and it is thouhgt that it is more appropriate to use a ML model than to learn using a DL model.
+1. The number of training data is 14,095, and it is thouhgt that it is more appropriate 
+   to use a ML model than to learn using a DL model.
 
-2. The "Knowledge Distillation" technique is a technique proposed for use in a DL model -> Decide to building a ML model that applicated Knowledge Distillation
+2. The "Knowledge Distillation" technique is a technique proposed for use in a DL model 
+   -> Decide to building a ML model that applicated Knowledge Distillation
 ```
 
 <br>
@@ -75,15 +78,21 @@ so failure to find out what additional data to put in & lack of knowledge about 
 <br>
 
 ```
-1. Save a list with each probability for target_value used in the process of classifying learning data with Teacher Model
+1. Save a list with each probability for target_value used in the process of classifying
+   learning data with Teacher Model
 
-2. Create a function that applies temperature to the sigmoid function proposed in the "Knowledge Distillation" technique paper for the values in the list, reassign the values through this function, and save as a pickle file
+2. Create a function that applies temperature to the sigmoid function proposed in the 
+   "Knowledge Distillation" technique paper for the values in the list, reassign the values 
+    through this function, and save as a pickle file
 
-3. Import the training data from the Student Model, remove features except features included in test data, assign the target_value as the column corresponding to the normal oil among the pickle files created by the Teacher Model, and train the model
+3. Import the training data from the Student Model, remove features except features included 
+   in test data, assign the target_value as the column corresponding to the normal oil among 
+   the pickle files created by the Teacher Model, and train the model
 
 4. Proceed with regression prediction using the data to be predicted with the learned Student Model
 
-5. Proceed with dividing into normal oil and abnormal oil by classifying a threshold for the predicted values
+5. Proceed with dividing into normal oil and abnormal oil by classifying a threshold 
+   for the predicted values
 
 6. Submission
 ```
