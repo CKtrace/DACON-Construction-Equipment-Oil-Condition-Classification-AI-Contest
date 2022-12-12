@@ -39,8 +39,8 @@ RAM : 32GB
 
 <br>
 
-Since the amount of missing values in the data and each row is data for the  corresponding oil, 
-so failure to find out what additional data to put in & lack of knowledge about Construction Equipment oil
+__Since the amount of missing values in the data and each row is data for the  corresponding oil,__ 
+__so failure to find out what additional data to put in & lack of knowledge about Construction Equipment oil__
 
     -> Aim to achieve maximum performance in the modeling part.
 
