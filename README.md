@@ -57,6 +57,9 @@ __Limitations : The number of features in the training data is 54, and the numbe
 <br>
 
 ### Model Building Method
+
+<br>
+
 1. Save a list with each probability for target_value used in the process of classifying learning data with Teacher Model
 
 2. Create a function that applies temperature to the sigmoid function proposed in the "Knowledge Distillation" technique paper for the values in the list, reassign the values through this function, and save as a pickle file
