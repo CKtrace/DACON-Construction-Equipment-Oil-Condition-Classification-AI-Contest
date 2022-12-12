@@ -29,6 +29,7 @@ CPU : Intel i9-10900F
 GPU : NVIDIA GeForce RTX 3080 Ti
 RAM : 32GB
 ```
+
 </br>
 
 ## Approach Method Summary
@@ -43,16 +44,29 @@ so failure to find out what additional data to put in & lack of knowledge about 
 
     -> Aim to achieve maximum performance in the modeling part.
 
+
+<br>
+
+### Limitation
+
+<br>
+
+```
+1st Limitations: This competition had to use a "Knowledge Distillation" technique
+
+2nd Limitations : The number of features in the training data is 54, and the number of features in the data to be predicted is 19, which is a difference of about 3 times.
+```
+
+
 ### Modeling Perspective
 
 <br>
 
-__Limitations : The number of features in the training data is 54, and the number of features in the data to be predicted is 19, which is a difference of about 3 times.__
-
+```
 1. The number of training data is 14,095, and it is thouhgt that it is more appropriate to use a ML model than to learn using a DL model.
 
-2. This competition had to use a "Knowledge Distillation" technique, and the "Knowledge Distillation" technique is a technique proposed for use in a DL model
--> Decide to building a ML model that applicated Knowledge Distillation
+2. The "Knowledge Distillation" technique is a technique proposed for use in a DL model -> Decide to building a ML model that applicated Knowledge Distillation
+```
 
 <br>
 
@@ -60,6 +74,7 @@ __Limitations : The number of features in the training data is 54, and the numbe
 
 <br>
 
+```
 1. Save a list with each probability for target_value used in the process of classifying learning data with Teacher Model
 
 2. Create a function that applies temperature to the sigmoid function proposed in the "Knowledge Distillation" technique paper for the values in the list, reassign the values through this function, and save as a pickle file
@@ -71,6 +86,8 @@ __Limitations : The number of features in the training data is 54, and the numbe
 5. Proceed with dividing into normal oil and abnormal oil by classifying a threshold for the predicted values
 
 6. Submission
+```
+
 </br>
 
 ## 
