@@ -51,7 +51,7 @@ __Limitations : The number of features in the training data is 54, and the numbe
 
 1. The number of training data is 14,095, and it is thouhgt that it is more appropriate to use a ML model than to learn using a DL model.
 
-2. This competiton had to use a "Knowledge Distillation" technique, and the "Knowledge Distillation" technique is a technique proposed for use in a DL model
+2. This competition had to use a "Knowledge Distillation" technique, and the "Knowledge Distillation" technique is a technique proposed for use in a DL model
 -> Decide to building a ML model that applicated Knowledge Distillation
 
 <br>
