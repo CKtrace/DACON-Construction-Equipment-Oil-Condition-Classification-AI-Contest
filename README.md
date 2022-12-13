@@ -99,4 +99,4 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 
 </br>
 
-## 
+_Special Thanks to my mentor [JongHyeon Kim](https://github.com/bellhyeon)_
