@@ -108,6 +108,6 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 
 <div align=right>
 
-_Special Thanks to my mentor [JongHyeon Kim](https://github.com/bellhyeon)_
+_Special Thanks to My Mentor [JongHyeon Kim](https://github.com/bellhyeon)_
 
 </div>
