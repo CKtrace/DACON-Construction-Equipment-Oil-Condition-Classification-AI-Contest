@@ -1,8 +1,9 @@
 # 건설기계 오일 상태 분류 AI 경진대회
 
 ```
-Final Ranking : 22/518 (Top 4.2%)
+Final Ranking : 21/517 (Top 4.1%)
 ```
+
 
 </br>
 
@@ -103,4 +104,10 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 
 <br>
 
+
+
+<div align=right>
+
 _Special Thanks to my mentor [JongHyeon Kim](https://github.com/bellhyeon)_
+
+</div>
