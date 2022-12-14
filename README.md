@@ -103,9 +103,8 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 
 ### References
 
-```
-Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2(7).
-```
+__Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2(7).__
+
 
 
 <br>
