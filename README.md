@@ -19,7 +19,26 @@ __This repository is a place to share "건설기계 오일 상태 분류 AI 경�
 후원 : AWS
 주관 : 데이콘
 ```
-</br>
+<br>
+
+## Repository Structure
+```
+│  README.md
+│  
+├─Data_Preprocessing
+│      Basic_Preprocessing.ipynb
+│      
+└─Models
+    ├─1st_Model_Set
+    │      1st_Student_Model.py
+    │      1st_Teacher_Model.py
+    │      
+    └─2nd_Model_Set
+            2nd_Student_Model.py
+            2nd_Teacher_Model.py
+```
+
+<br>
 
 
 ## Development Environment
