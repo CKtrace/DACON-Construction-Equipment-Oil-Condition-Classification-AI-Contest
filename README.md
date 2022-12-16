@@ -11,18 +11,15 @@ Final Ranking : 21/517 (Top 4.1%)
 
 </br>
 
-__This repository is a place to share "건설기계 오일 상태 분류 AI 경진대회" solution code.__
+__This repository is a place to share "[건설기계 오일 상태 분류 AI 경진대회](https://dacon.io/competitions/official/236013/overview/description)" solution code.__
 
-[Official Contest Page]("https://dacon.io/competitions/official/236013/overview/description") 
-
+</br>
 
 ```
 주최 : 현대제뉴인
 후원 : AWS
 주관 : 데이콘
 ```
-
-
 <br>
 
 ## Repository Structure
