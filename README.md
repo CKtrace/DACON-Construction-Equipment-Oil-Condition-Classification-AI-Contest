@@ -63,7 +63,7 @@ RAM : 32GB
 
 <br>
 
-__Since the amount of missing values in the data and each row is data for the  corresponding oil,__ 
+__Since the amount of missing values in the data and each row is data for the corresponding oil,__ 
 __so failure to find out what additional data to put in & lack of knowledge about Construction Equipment oil__
 
     -> Aim to achieve maximum performance in the modeling part.
@@ -76,10 +76,10 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 <br>
 
 ```
-1st Limitations: This competition had to use a "Knowledge Distillation" technique
+1st Limitation : This competition had to use a "Knowledge Distillation" technique
 
-2nd Limitations : The number of features in the training data is 54, and the number of 
-                  features in the data to be predicted is 19, which is a difference of about 3 times.
+2nd Limitation : The number of features in the training data is 54, and the number of 
+                 features in the data to be predicted is 19, which is a difference of about 3 times.
 ```
 
 
@@ -89,10 +89,10 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 
 ```
 1. The number of training data is 14,095, and it is thouhgt that it is more appropriate 
-   to use a ML model than to learn using a DL model.
+   to use a ML model than using a DL model.
 
 2. The "Knowledge Distillation" technique is a technique proposed for use in a DL model 
-   -> Decide to building a ML model that applicated Knowledge Distillation
+   -> Decide to building a ML model that applicated "Knowledge Distillation"
 ```
 
 <br>
@@ -107,9 +107,9 @@ __so failure to find out what additional data to put in & lack of knowledge abou
 
 2. Create a function that applies temperature to the sigmoid function proposed in the 
    "Knowledge Distillation" technique paper for the values in the list, reassign the values 
-    through this function, and save as a pickle file
+   through this function, and save as a pickle file
 
-3. Import the training data from the Student Model, remove features except features included 
+3. Load the training data to the Student Model, remove features except features included 
    in test data, assign the target_value as the column corresponding to the normal oil among 
    the pickle files created by the Teacher Model, and train the model
 
