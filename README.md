@@ -1,7 +1,7 @@
 # 건설기계 오일 상태 분류 AI 경진대회
 
 ```
-Final Ranking : 21/517 (Top 4.1%)
+Final Ranking : 21/517 (Top 4.1%) (학생팀 기준 입상권 진입)
 ```
 
 
